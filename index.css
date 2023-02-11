@@ -1,0 +1,11 @@
+/* CSS for devices with a screen width less than 576px */
+@media (max-width: 576px) {
+  .col-8 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
